@@ -1,0 +1,19 @@
+[project]
+name = "base_fastapi_project"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Dzmitry Zhybryk", email = "mr.zhybryk@gmail.com"},
+]
+dependencies = [
+    "fastapi>=0.108.0",
+    "uvicorn>=0.25.0",
+    "pydantic-settings>=2.1.0",
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+package-type = "application"
